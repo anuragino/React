@@ -1,0 +1,17 @@
+.product{
+  width: fit-content;
+  padding: 4%;
+  
+  background-color: lightyellow;
+}
+.cat{
+  width: fit-content;
+  padding: 20px;
+  background-color: lightgreen;
+}
+
+.demo{
+  padding: 20px;
+  width: fit-content;
+  background-color: lightpink;
+}
