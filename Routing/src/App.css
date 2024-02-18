@@ -1,0 +1,124 @@
+.about{
+  height: 91vh;
+  background-color: burlywood;
+  padding: 30px;
+}
+
+h1{
+  font-size: 3rem;
+}
+
+.nav
+{
+  width: 100%;
+  padding: 20px;
+  background-color: darkgray;
+}
+
+
+.nav>ul{
+  font-size: 1.1rem;
+  display: flex;
+  column-gap: 2%;
+  list-style-type: none;
+}
+
+.link{
+  text-decoration: none;
+  color: black;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.link:hover{
+  color: brown;
+}
+
+.home{
+  height: 91vh;
+  padding: 20px;
+  background-color: rgb(104, 151, 136);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.solgn>h1{
+  font-size: 3.5rem;
+  color: rgb(22, 21, 21);
+}
+
+.solgn>h2{
+  font-size: 2.5rem;
+}
+
+.solgn>h3{
+  font-size: 1.5rem;
+  color: rgb(124, 19, 19);
+}
+
+
+.products{
+  padding: 20px;
+  background-color: beige;
+  display: flex;
+  
+  flex-wrap: wrap;
+  flex-direction: row;
+  column-gap: 3%;
+}
+
+.pro{
+  height: 300px;
+  width: 22%;
+  text-align: center;
+  align-items: center;
+  background-color: goldenrod;
+  margin-bottom: 30px;
+}
+
+.services{
+  padding: 20px;
+  background-color: rgb(255, 255, 197);
+  display: flex;
+  
+  flex-wrap: wrap;
+  flex-direction: row;
+  column-gap: 3%;
+}
+
+.serv{
+  height: 300px;
+  width: 22%;
+  text-align: center;
+  align-items: center;
+  background-color: rgb(84, 192, 84);
+  margin-bottom: 30px;
+}
+
+.jobs
+{
+  width:  40vw;
+  margin-top: 20px;
+  padding: 10px;
+  background-color: bisque;
+}
+
+.jobs>ul{
+  font-size: 1.1rem;
+  display: flex;
+  column-gap: 6%;
+  list-style-type: none;
+}
+.job{
+  font-style: italic;
+  text-decoration: none;
+  color: palevioletred;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.refdemo
+{
+  padding: 40px;
+  background-color: lightgreen;
+}
